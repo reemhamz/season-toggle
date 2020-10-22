@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+
+$oxygen: 'Oxygen', sans-serif;
+
+* {
+    font-family: $oxygen;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+
+input {
+    display: none;
+}

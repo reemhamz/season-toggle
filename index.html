@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Seasoned Toggle</title>
+</head>
+<body>
+    <main>
+
+        <div class="screen">
+            <div class="circle-summer circle">
+                <img src="./assets/spring-leaf.png" alt="green maple leaf">
+            </div>
+            <div class="circle-autumn circle">
+                <img src="./assets/autumn-leaf.png" alt="orange maple leaf">
+            </div>
+            <h1>🍃 Choose your season 🍂</h1>
+            <h2>💫 seasons may change, winter to spring 🎭</h2>
+            
+                <div class="toggle">
+                    <input type="radio" id="summer-toggle" name="toggle-seasons" class="radio-button visuallyHidden">
+                    <label for="summer-toggle" class="summer-toggle">Summer</label>
+                    
+                    <input type="radio" id="autumn-toggle" name="toggle-seasons" class="radio-button visuallyHidden">
+                    <label for="autumn-toggle" class="autumn-toggle">Autumn</label>
+                
+                </div>
+        </div>
+    </main>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="/script.js"></script>
+</body>
+</html>

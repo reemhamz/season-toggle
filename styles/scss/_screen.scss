@@ -1,0 +1,48 @@
+.screen {
+  background-color: $white;
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 35vw;
+  height: 100vh;
+  box-shadow: 0px 0px 66px -24px rgba(123, 123, 123, 1);
+  border-radius: 30px;
+
+  .circle {
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+  .circle-summer {
+    border: 3px solid $darkGreen;
+    box-shadow: 0px 0px 57px 19px $lightGreen;
+  }
+
+  .circle-autumn {
+    border: 3px solid $darkOrange;
+    box-shadow: 0px 0px 57px 19px $lightOrange;
+  }
+
+  .toggle {
+    display: flex;
+    margin-top: 40px;
+    background-color: $lightGrey;
+    padding: 5px 0;
+    border-radius: 30px;
+    position: relative;
+    label {
+      position: relative;
+      margin: 0 10px;
+      z-index: 30;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+  }
+}
+
+.summer-toggle, .autumn-toggle {
+    padding: 10px 20px;
+}
